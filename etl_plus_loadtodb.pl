@@ -118,7 +118,7 @@ sub download_us{
 sub load_to_db{
 
 	my $user = "root";
-	my $pass ="K4Gayathri";
+	my $pass ="root";
 	my $host = "localhost";
 
 	my $dbh = DBI->connect("dbi:mysql:INDIAN_STOCKS:$host",$user,$pass);
